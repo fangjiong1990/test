@@ -7,7 +7,7 @@ class RunTestCase:
     def add_case(self):
         """加载所有的测试用例"""
         # case地址
-        test_path = "testcase/"
+        test_path = "apitest/testcase/"
 
         #报告地址
         report_url = "apitest/report/"
