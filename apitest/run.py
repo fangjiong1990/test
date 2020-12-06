@@ -10,7 +10,7 @@ class RunTestCase:
         test_path = "testcase/"
 
         #报告地址
-        report_url = "/apitest/report/"
+        report_url = "apitest/report/"
 
         # 获取当前时间
         nowtime = strftime("%Y_%m_%d_%H_%M_%S")
