@@ -3,7 +3,7 @@ import xlrd
 class ReadExcel():
     """读取excel文件数据"""
     def __init__(self):
-        self.data = xlrd.open_workbook("../data/DemoTestCase.xlsx")
+        self.data = xlrd.open_workbook("apitest/data/DemoTestCase.xlsx")
         self.table = self.data.sheet_by_name("Sheet1")
 
         # 获取总行数、总列数
